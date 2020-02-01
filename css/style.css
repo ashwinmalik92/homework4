@@ -1,43 +1,43 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: #ddd;
   font-size: 18px;
   margin: 0;
   padding: 0;
 }
 
-h1{
+h1 {
   font-size: 50px;
   line-height: 1;
   padding: 50px 0;
   text-align: center;
 }
 
-h2{
+h2 {
   font-size: 32px;
   line-height: 1.5;
 }
 
-nav li{
+nav li {
   display:inline;
   padding-right:20px;
 
 }
 
-nav a{
+nav a {
   color: black;
   font-weight: bold;
   text-decoration: none; 
 }
 
-nav a:hover{
+nav a:hover {
   text-decoration: underline;
 }
 
-.skip a{
+.skip a {
   background: white;
   left: 0;
   padding: 6px;
@@ -59,7 +59,7 @@ link to the exact top of the page.*/
 border around all elements in focus.*/
   
 
-footer{
+footer {
   background-color: black;
   color: white;
   grid-column: 1 / -1;  /*Can you explain what this does?*/
@@ -68,7 +68,7 @@ footer{
   text-align: center;
 }
 
-nav{
+nav {
   background-color: #ddd;
   padding: 20px 0; 
   text-align: left;
@@ -78,7 +78,7 @@ nav{
 
 }
 
-header{
+header {
   background-attachment: fixed; /* Parallax effect */     
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
@@ -91,7 +91,7 @@ header{
   /* Span one row */
 }
 
-header p{
+header p {
   color: white;
   font-size: 24px;
   padding: 0 100px;
@@ -99,46 +99,46 @@ header p{
 }
 
 
-.container{
+.container {
   /*Your code here  */
   /* See documentation for mobile view */
 
 }
-.about, .method, .clients, .contact{
+.about, .method, .clients, .contact {
   /*Your code here */
   /* See documentation for mobile view */
 
 }
 
-.about-image, .method-image, .clients-image, .contact-image{
+.about-image, .method-image, .clients-image, .contact-image {
    /*Your code here */
    /* See documentation for mobile view */
 }
 
-.about, .about-image{
+.about, .about-image {
   /*Your code here */
   /* See documentation for mobile view */
 
 }
 
-.method, .method-image{
+.method, .method-image {
   /*Your code here */
   /* See documentation for mobile view */
 }
 
 
-.clients, .clients-image{
+.clients, .clients-image {
   /*Your code here */
   /* See documentation for mobile view */
 }
 
 
-.contact, .contact-image{
+.contact, .contact-image {
   /*Your code here */
   /* See documentation for mobile view */
 }
 
-.text-block{
+.text-block {
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
@@ -149,26 +149,26 @@ header p{
 
 
 
-@media all and (min-width: 800px){
+@media all and (min-width: 800px) {
 
-  .container{
+  .container {
   /*Your code here */
   /* See documentation for desktop view */ 
   }
 
-  nav{
+  nav {
     background-color: #ddd;
     text-align: right;
     padding: 35px 0px;
     align-self: center;
   }
 
-  .about, .clients, .method-image, .contact-image{
+  .about, .clients, .method-image, .contact-image {
   /*Your code here */
   /* See documentation for desktop view */ 
   }
 
-  .about-image, .clients-image, .method, .contact{
+  .about-image, .clients-image, .method, .contact {
     /*Your code here */
     /* See documentation for desktop view */ 
     }
@@ -176,12 +176,12 @@ header p{
 
 }  /*End the media query*/
 
-@media screen and (prefers-reduced-motion: reduce){
-  html{
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
       scroll-behavior: auto; /* Removes scroll animation */
   }
 
-  .skip a{
+  .skip a {
     -webkit-transition: none;
     transition: none;
   }
