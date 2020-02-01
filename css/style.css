@@ -99,14 +99,14 @@ header p {
   grid-row-gap:           15px;
 }
 .about, .method, .clients, .contact {
-  /*Your code here */
-  /* See documentation for mobile view */
+  grid-row: auto / span 1;
+  grid-column: 2 / span 1;
 
 }
-
 .about-image, .method-image, .clients-image, .contact-image {
-   /*Your code here */
-   /* See documentation for mobile view */
+  grid-row: auto / span 1;
+  grid-column: span auto;
+  max-height: 700px;
 }
 
 .about, .about-image {
